@@ -16,7 +16,7 @@
           <div class="col-md-4 col-12">
             <h5>View all</h5>  
           </div>
-        <div class="d-flex align-item-center col-lg-3 col-md-6 col-12"  v-for="data in datas" :key="data.id" >
+        <div class="d-flex align-item-center col-lg-3 col-md-6 col-12 mb-4"  v-for="data in datas" :key="data.id" >
           <div>
            <img class="mb-4" :src="data.image" width="100%" height="70%">
            <p class="font-weight-bold">{{data.title}}</p>
